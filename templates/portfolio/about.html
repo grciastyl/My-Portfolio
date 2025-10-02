@@ -5,17 +5,26 @@
 
 {% block content %}
 <div class="about-container">
-        <div class="pic-container">
-            <h2>Picture</h2>
-
-        </div>
-        <div class="text-container">
-            <h2>My Role as a Dev</h2>
-            <h2>Christopher Garcia</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia veniam facilis magni deleniti, ullam
-                accusantium soluta error eum quos tempore blanditiis animi ducimus. Nesciunt eius harum quo doloribus
-                placeat fuga cumque hic modi, beatae a quibusdam provident? Aliquid neque minima dolor vero dolorum
-                culpa reprehenderit non consequatur id aut cum tempore impedit earum, commodi corporis repudiandae.</p>
-        </div>
+    <!-- Left side (Picture) -->
+    <div class="pic-container">
+        <img src="{% static 'images/profile.jpg' %}" alt="Profile Picture" class="profile-pic">
     </div>
+
+    <!-- Right side (Text) -->
+    <div class="text-container">
+        <h2>My Role as a Developer</h2>
+        <h2>Christopher Garcia</h2>
+        <p>I am a fledgling developer soon completing San Diego Global Knowledge University’s Full Stack Development
+            Immersive Program. My training covers both front-end and back-end development, giving me a well-rounded
+            skill set for building complete web applications.
+            <br>
+            I enjoy the creativity of front-end development, where I can design interfaces that are both visually
+            appealing and functional. On the back end, I value the opportunity to apply problem-solving and logical
+            thinking to create efficient, reliable systems.
+            <br>
+            I am passionate about learning, improving my craft, and contributing to projects that combine clean design,
+            functionality, and innovation.
+        </p>
+    </div>
+</div>
 {% endblock content %}

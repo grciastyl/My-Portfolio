@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Experience{% endblock title %}
+
+{% block content %}
+<div class="experience-container">
+
+    <!-- SDGKU -->
+    <div class="experience-card">
+        <img src="{% static 'images/SDGKU.png' %}" alt="SDGKU" class="experience-img">
+        <div class="experience-text">
+            <h2>San Diego Global Knowledge University</h2>
+            <h3>Student / Full Stack Development Immersive Program</h3>
+            <ul>
+                <li>Received training in web applications, covering UI, front-end, middle-tier, and back-end.</li>
+                <li>Gained proficiency in HTML, CSS, JavaScript, Bootstrap, Node.js, MySQL, Python, Django, and React.js.</li>
+                <li>Applied full stack technologies to build complete, functional web applications.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Home Depot -->
+    <div class="experience-card">
+        <img src="{% static 'images/homedepot.jpg' %}" alt="Home Depot" class="experience-img">
+        <div class="experience-text">
+            <h2>The Home Depot</h2>
+            <h3>Lead Repair Technician</h3>
+            <ul>
+                <li>Repaired and maintained a fleet of 100+ rental heavy equipment units across southern and western Colorado.</li>
+                <li>Assisted customers with technical troubleshooting, ensuring minimal downtime and high customer satisfaction.</li>
+                <li>Trained and mentored new staff on equipment maintenance and safety protocols, improving team efficiency and service standards.</li>
+                <li>Ensured compliance with safety regulations and optimized equipment availability for maximum operational performance.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Air Force -->
+    <div class="experience-card">
+        <img src="{% static 'images/airforce.png' %}" alt="Air Force" class="experience-img">
+        <div class="experience-text">
+            <h2>U.S. Air Force</h2>
+            <h3>Standardization / Evaluation AC-130 Loadmaster</h3>
+            <ul>
+                <li>Conducted standardization and evaluation of AC-130 loadmaster operations, ensuring compliance with Air Force protocols.</li>
+                <li>Trained and assessed aircrew members on loadmaster procedures, enhancing mission readiness and safety.</li>
+                <li>Developed and implemented evaluation criteria for operational efficiency and effectiveness.</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+{% endblock content %}
